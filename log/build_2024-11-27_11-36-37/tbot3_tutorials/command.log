@@ -1,2 +1,0 @@
-Invoking command in '/turtlebot3_ws/src/turtlebot3_simulations/tbot3_tutorials/build/tbot3_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /turtlebot3_ws/src/turtlebot3_simulations/tbot3_tutorials/build/tbot3_tutorials -- -j20 -l20
-Invoked command in '/turtlebot3_ws/src/turtlebot3_simulations/tbot3_tutorials/build/tbot3_tutorials' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /turtlebot3_ws/src/turtlebot3_simulations/tbot3_tutorials/build/tbot3_tutorials -- -j20 -l20
