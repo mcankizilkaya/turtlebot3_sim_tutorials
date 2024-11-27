@@ -8,6 +8,14 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(sensor_msgs REQUIRED)
+find_package(tf2 REQUIRED)
+find_package(gazebo REQUIRED)
+find_package(gazebo_ros_pkgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
+find_package(tf2_msgs REQUIRED)
+find_package(turtlebot3_msgs REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -20,5 +28,37 @@ if(BUILD_TESTING)
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
+
+link_directories(
+  ${GAZEBO_LIBRARY_DIRS}
+)
+
+include_directories(
+  include
+  ${GAZEBO_INCLUDE_DIRS}
+)
+
+set(dependencies
+  "geometry_msgs"
+  "rclcpp"
+  "sensor_msgs"
+)
+add_executable(avoidobstacle src/avoid_obstacle.cpp)
+ament_target_dependencies(avoidobstacle ${dependencies})
+
+
+install(TARGETS avoidobstacle
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(DIRECTORY launch 
+  DESTINATION share/${PROJECT_NAME}/
+)
+
+install(DIRECTORY include/
+  DESTINATION include/
+)
+
+
 
 ament_package()

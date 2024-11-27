@@ -1,0 +1,132 @@
+[0.007s] Invoking command in '/turtlebot3_ws/src/turtlebot3_simulations/tbot3_tutorials/build/tbot3_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /turtlebot3_ws/src/turtlebot3_simulations/tbot3_tutorials/build/tbot3_tutorials -- -j20 -l20
+[0.026s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.105s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.121s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.122s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.125s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.131s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.137s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.154s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.155s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.226s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.252s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.267s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[0.272s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.272s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[0.272s]   does not match the name of the calling package (gazebo).  This can lead to
+[0.272s]   problems in calling code that expects `find_package` result variables
+[0.272s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.272s] Call Stack (most recent call first):
+[0.272s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[0.272s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[0.272s]   CMakeLists.txt:13 (find_package)
+[0.272s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.272s] [0m
+[0.285s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.300s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.301s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.304s] -- Searching for dependencies of ignition-math6
+[0.304s] -- Looking for OGRE...
+[0.308s] -- Found Ogre Ghadamon (1.9.0)
+[0.308s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.316s] -- Looking for OGRE_Paging...
+[0.316s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.317s] -- Looking for OGRE_Terrain...
+[0.317s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.317s] -- Looking for OGRE_Property...
+[0.317s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.317s] -- Looking for OGRE_RTShaderSystem...
+[0.317s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.317s] -- Looking for OGRE_Volume...
+[0.317s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.317s] -- Looking for OGRE_Overlay...
+[0.317s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.365s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.365s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.365s] -- Searching for dependencies of ignition-transport8
+[0.380s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.389s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.393s] -- Checking for module 'libzmq >= 4'
+[0.406s] --   Found libzmq , version 4.3.4
+[0.449s] -- Checking for module 'uuid'
+[0.466s] --   Found uuid, version 2.37.2
+[0.500s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.501s] -- Searching for dependencies of ignition-msgs5
+[0.518s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.522s] -- Checking for module 'tinyxml2'
+[0.541s] --   Found tinyxml2, version 9.0.0
+[0.603s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.604s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.605s] -- Searching for dependencies of ignition-common3
+[0.605s] -- Looking for dlfcn.h - found
+[0.605s] -- Looking for libdl - found
+[0.618s] -- Searching for <ignition-common3> component [graphics]
+[0.618s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[0.618s] -- Searching for dependencies of ignition-common3-graphics
+[0.619s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.620s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[0.620s] -- Searching for dependencies of ignition-fuel_tools4
+[0.647s] -- Checking for module 'jsoncpp'
+[0.657s] --   Found jsoncpp, version 1.9.5
+[0.712s] -- Checking for module 'libzip'
+[0.735s] --   Found libzip, version 1.7.3
+[0.799s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.800s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.800s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.802s] -- Found gazebo_ros_pkgs: 3.7.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[0.802s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.812s] -- Found tf2_msgs: 0.25.8 (/opt/ros/humble/share/tf2_msgs/cmake)
+[0.833s] -- Found turtlebot3_msgs: 2.2.3 (/opt/ros/humble/share/turtlebot3_msgs/cmake)
+[0.841s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.885s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.886s] -- Configured cppcheck include dirs: /turtlebot3_ws/src/turtlebot3_simulations/tbot3_tutorials/include
+[0.886s] -- Configured cppcheck exclude dirs and/or files: 
+[0.887s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.888s] -- Added test 'lint_cmake' to check CMake code style
+[0.889s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.895s] -- Added test 'uncrustify' to check C / C++ code style
+[0.895s] -- Configured uncrustify additional arguments: 
+[0.896s] -- Added test 'xmllint' to check XML markup files
+[0.896s] -- Configuring done
+[0.899s] [31mCMake Error at CMakeLists.txt:49 (add_library):
+[0.899s]   Cannot find source file:
+[0.899s] 
+[0.899s]     models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc
+[0.899s] 
+[0.899s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[0.899s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[0.899s] 
+[0.899s] [0m
+[0.899s] [31mCMake Error at CMakeLists.txt:52 (add_library):
+[0.899s]   Cannot find source file:
+[0.899s] 
+[0.899s]     models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc
+[0.899s] 
+[0.899s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[0.899s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[0.899s] 
+[0.899s] [0m
+[0.899s] [31mCMake Error at CMakeLists.txt:55 (add_library):
+[0.899s]   Cannot find source file:
+[0.899s] 
+[0.899s]     models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc
+[0.899s] 
+[0.899s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[0.899s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[0.899s] 
+[0.899s] [0m
+[0.900s] [31mCMake Error at CMakeLists.txt:49 (add_library):
+[0.900s]   No SOURCES given to target: obstacle1
+[0.900s] 
+[0.900s] [0m
+[0.900s] [31mCMake Error at CMakeLists.txt:52 (add_library):
+[0.900s]   No SOURCES given to target: obstacle2
+[0.900s] 
+[0.900s] [0m
+[0.900s] [31mCMake Error at CMakeLists.txt:55 (add_library):
+[0.900s]   No SOURCES given to target: obstacles
+[0.900s] 
+[0.900s] [0m
+[0.900s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.905s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.906s] Invoked command in '/turtlebot3_ws/src/turtlebot3_simulations/tbot3_tutorials/build/tbot3_tutorials' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /turtlebot3_ws/src/turtlebot3_simulations/tbot3_tutorials/build/tbot3_tutorials -- -j20 -l20
